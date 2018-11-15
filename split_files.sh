@@ -15,6 +15,6 @@ do
 	echo $i
 	echo ${mon[${i}]}
 	j=` printf %02d $(( $i + 1 )) `
-	cdo -splitsel,1 xnwfxa.pfk${year}${mon[${i}]}.theta_diff.nc ic_N144_200${year}${j}_
+	cdo -splitsel,1 theta_diff/xnwfxa.pfk${year}${mon[${i}]}.theta_diff.nc input_files/ic_N144_200${year}${j}_
 
 done
