@@ -1,5 +1,5 @@
 # Xancil version 0.57 (01-February-2017)
-# Job file created on Wed Aug 15 16:47:53 BST 2018
+# Job file created on Thu Jan 10 12:57:34 GMT 2019
 
 # config variables
 
@@ -337,7 +337,7 @@ set ausrmulti(mm) 1
 set ausrmulti(model) 1
 set ausrmulti(nfield) 1
 set ausrmulti(ntimes) 1
-set ausrmulti(periodic) 1
+set ausrmulti(periodic) 0
 set ausrmulti(startday) 01
 set ausrmulti(starthour) 12
 set ausrmulti(startmin) 0
